@@ -1,0 +1,36 @@
+﻿TITLE: Technical Proposal
+PAGES: ; WORDS: ; TABLES: 1; IMAGES: 0; COMMENTS: 0; INSERTIONS: 0; DELETIONS: 0
+
+[heading 2] Technical & Commercial Proposal: 
+The "Audio-First" Pre-Editor Engine
+[paragraph] Prepared by: Unchain Labs (Technology Division of UCTalent Labs)
+[paragraph] Target Partner: Sunrise Technology Services
+[paragraph] Date: June 2026
+[paragraph] Contact: duong@uctalent.io | unchain-labs.com
+[heading 2] 1. Executive Summary & Partner Alignment
+[paragraph] Unchain Labs values its ongoing partnership with Sunrise Technology Services. To support your client’s scaling goal of handling 17+ concurrent podcast clients, we have designed a highly efficient, deterministic "Audio-First" metadata engine to automate the manual 2-day rough-cut phase down to under 4 hours.
+[paragraph] Rather than utilizing computationally heavy and expensive cloud-based computer vision, our solution treats multi-camera sequences as a pure data and text orchestration challenge. This approach keeps processing rapid, operational costs minimal, and integrates seamlessly into the end client's existing Adobe Premiere Pro workflows.
+[heading 2] 2. Technical Architecture & Core Logic
+[paragraph] A. Phase 1: Core Automation & Alignment (Expected Timeline: 3-4 Weeks + Calibration)
+[paragraph, list L0] Local Data Ingestion: A lightweight interface extracts compressed audio (WAV/MP3) and absolute SMPTE timecodes locally. High-resolution 4K video files never leave local storage, eliminating bandwidth bottlenecks.
+[paragraph, list L0] Semantic RAG Filtering: The system passes transcripts generated via a secure speech-to-text pipeline through a custom Retrieval-Augmented Generation (RAG) engine. It compares the dialogue against the text-based Podcast Plan to keep key narrative arcs and strip out dead air and off-topic tangents.
+[paragraph, list L0] Algorithmic Camera Switching: The active speaker is determined via a local audio-amplitude and diarization script. By enforcing a 1.5-second minimum pacing hold time and a comparative loudness threshold, it mitigates microphone bleed and smoothly switches camera tracks.
+[paragraph, list L0] Native FCPXML Generation with 0.5s Handles: The script outputs a native Final Cut Pro XML (FCPXML v1.8) file. When opened in Adobe Premiere Pro (v24.0+), it maps the cuts natively to the raw files with 0.5-second safety handles pre-padded onto the clip boundaries for quick pacing adjustments.
+[heading 3] B. Phase 2: Micro-Moments Extraction (Expected Timeline: 2-3 Weeks)
+[paragraph, list L0] Short-Form Highlight Identification: The AI infrastructure concurrently scans high-emotion text vectors and semantic peaks during the transcription phase to flag high-engagement, short-form highlights. These are programmatically compiled into a secondary sequence or dedicated project bin for rapid social media editing.
+[heading 2] 3. Revised Project Timeline
+[paragraph] As a preferred development partner, Unchain Labs has structured this project to align tightly with your target delivery windows and commercial frameworks.
+[heading 3] Project Schedule
+[paragraph] Weeks 1-4: Phase 1 Core Build ─────────> Transcription, Diarization, & XML Scripting
+[paragraph] Weeks 5-6: Calibration Window ─────────> Human-Editor Feedback & Pacing Tuning
+[paragraph] Weeks 7-9: Phase 2 Short-Form ─────────> Highlight Extraction Engine & Project Close
+[TABLE 1, 5 rows]
+Project Phase | Target Duration | Scope Focus | 
+Phase 1: Core Pre-Editor | 3-4 Weeks | Audio pipelines, RAG filtering, switching logic, and FCPXML output. | 
+Calibration & Tuning | 1-2 Weeks | Live alignment testing and editor optimization loops. | 
+Phase 2: Micro-Moments | 2-3 Weeks | Automated short-form highlight compiler. | 
+Total Investment | ~8-9 Weeks Total | Custom End-to-End Automation Delivery | 
+[/TABLE]
+[heading 3] Per-Episode Operational Costs
+[paragraph, list L0] Metered API Fees: ~$3.50 to $5.00 USD per 2-hour episode.
+[paragraph, list L0] Because our architecture operates on lightweight audio and text arrays, your client avoids costly cloud video rendering fees, paying strictly for metered Whisper and LLM tokens.

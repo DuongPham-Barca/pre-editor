@@ -1,0 +1,42 @@
+﻿TITLE: Request for Proposal - “Pre-Editor” Automation System
+PAGES: ; WORDS: ; TABLES: 0; IMAGES: 1; COMMENTS: 0; INSERTIONS: 0; DELETIONS: 0
+
+[Title] Sunrise Technology Services
+[Title] “Pre-Editor” Automation System
+[Title] Request for Proposal (RFP)
+[heading 3] PREPARED BY
+[paragraph] Sunrise Technology Services
+[heading 2] 1. Introduction & Project Context
+[paragraph] Our Client is a podcast production company. They specialize in long-form, multi-camera video podcasts. As they scale to support 17+ concurrent clients, the post-production pipeline has encountered a significant manual bottleneck in the "rough cut" phase.
+[paragraph] The project goal is to build a custom automation solution that acts as an intelligent "Pre-Editor," dramatically reducing the initial editing time required per episode.
+[heading 2] 2. The Core Problem
+[paragraph] Currently, the multi-camera podcast recordings yield up to 2 hours of raw, unedited footage per episode.
+[paragraph] A human editor must manually watch the footage, align the multi-cam angles, refer to the client's creative brief (show notes), cut out off-topic tangents, select the most engaging narrative moments, and switch camera angles to the active speaker.
+[paragraph] This manual rough-cut process currently takes 2 full working days per episode. The primary business goal is to reduce this phase to under 4 hours.
+[heading 2] 3. Functional Requirements
+[paragraph] We are looking for a solution that successfully executes the following workflow:
+[paragraph] A. Inputs:
+[paragraph] The system must be able to ingest:
+[paragraph, list L0] Media: Up to 2 hours of raw multi-camera video/audio (typically 2-3 isolated camera angles and separate audio tracks).
+[paragraph, list L0] Context: A text-based "Podcast Plan" or creative brief that outlines the intended topics, narrative structure, and specific moments of interest for that episode.
+[paragraph] B. Processing:
+[paragraph] The system must analyze the inputs and intelligently filter the content. It must:
+[paragraph, list L0] Identify and retain the most relevant narrative arcs based on the provided text context.
+[paragraph, list L0] Remove dead air, cross-talk, and off-topic conversations.
+[paragraph, list L0] Condense the 2-hour raw recording into a cohesive, highly engaging target duration of ~40 to 60 minutes.
+[paragraph, list L0] Accurately identify the active speaker and switch the camera angle accordingly.
+[paragraph] C. Output:
+[paragraph] The system must output a timeline/sequence that our human editors can immediately open and refine.
+[paragraph, list L0] It must automatically populate the selected cuts and correct multi-cam angles onto the timeline.
+[paragraph, list L0] It must apply a 0.5-second "safety handle" (buffer) to the start and end of every cut to allow the human editor room to adjust the pacing.
+[paragraph, list L0] It must compile the identified short-form "micro-moments" into a dedicated folder, bin, or secondary sequence for immediate access by the editor. (Phase 2)
+[heading 2] 4. Strict Technical Constraints
+[paragraph] While your approach to the logic is open, the final solution must adhere to the following strict constraints:
+[paragraph, list L0] Adobe Premiere Pro Compatibility: The final output must be editable within Adobe Premiere Pro (v24.0+). Your solution can achieve this via any reliable method (e.g., generating an FCPXML file, building a native UXP panel, executing an ExtendScript, etc.).
+[paragraph, list L0] Zero Timecode Drift: This is our highest technical priority. The automated cuts must maintain perfect synchronization with the raw, high-resolution video files.
+[paragraph, list L0] Easy Handoff: The solution must not require the human editor to manually re-link hundreds of media clips or spend hours conforming the automation to their raw files.
+[heading 2] 5. Proposal Requirements
+[paragraph] Please include the following information in the proposal (rough draft is fine):
+[paragraph, list L0] Proposed Solution & Architecture: Explain how you will solve this problem. What is your underlying logic for condensing the narrative? How will the system ingest the media and output to Premiere Pro (Web portal, local script, native plugin)? Why is your approach the most reliable?
+[paragraph, list L0] Estimated Timeline & Budget: Provide a high-level breakdown of the estimated hours, phases, and costs to deliver a functional MVP.
+[paragraph, list L0] Operational Costs: Provide an estimate of any ongoing third-party API or cloud hosting costs your proposed solution would incur per episode.

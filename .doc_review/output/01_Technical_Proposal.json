@@ -1,0 +1,287 @@
+﻿{
+    "source":  "D:\\Outsource\\Pre-edit\\Technical Proposal.docx",
+    "title":  "Technical Proposal",
+    "pages":  null,
+    "words":  null,
+    "characters":  null,
+    "paragraphs_count":  25,
+    "tables_count":  1,
+    "images_count":  0,
+    "comments_count":  0,
+    "tracked_insertions_count":  0,
+    "tracked_deletions_count":  0,
+    "hyperlinks_count":  0,
+    "footnotes_present":  false,
+    "endnotes_present":  false,
+    "headers_footers":  [
+
+                        ],
+    "paragraphs":  [
+                       {
+                           "index":  1,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Technical \u0026 Commercial Proposal: \nThe \"Audio-First\" Pre-Editor Engine"
+                       },
+                       {
+                           "index":  2,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Prepared by: Unchain Labs (Technology Division of UCTalent Labs)"
+                       },
+                       {
+                           "index":  3,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Target Partner: Sunrise Technology Services"
+                       },
+                       {
+                           "index":  4,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Date: June 2026"
+                       },
+                       {
+                           "index":  5,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Contact: duong@uctalent.io | unchain-labs.com"
+                       },
+                       {
+                           "index":  6,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "1. Executive Summary \u0026 Partner Alignment"
+                       },
+                       {
+                           "index":  7,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Unchain Labs values its ongoing partnership with Sunrise Technology Services. To support your client’s scaling goal of handling 17+ concurrent podcast clients, we have designed a highly efficient, deterministic \"Audio-First\" metadata engine to automate the manual 2-day rough-cut phase down to under 4 hours."
+                       },
+                       {
+                           "index":  8,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Rather than utilizing computationally heavy and expensive cloud-based computer vision, our solution treats multi-camera sequences as a pure data and text orchestration challenge. This approach keeps processing rapid, operational costs minimal, and integrates seamlessly into the end client\u0027s existing Adobe Premiere Pro workflows."
+                       },
+                       {
+                           "index":  9,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "2. Technical Architecture \u0026 Core Logic"
+                       },
+                       {
+                           "index":  10,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "A. Phase 1: Core Automation \u0026 Alignment (Expected Timeline: 3-4 Weeks + Calibration)"
+                       },
+                       {
+                           "index":  11,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "Local Data Ingestion: A lightweight interface extracts compressed audio (WAV/MP3) and absolute SMPTE timecodes locally. High-resolution 4K video files never leave local storage, eliminating bandwidth bottlenecks."
+                       },
+                       {
+                           "index":  12,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "Semantic RAG Filtering: The system passes transcripts generated via a secure speech-to-text pipeline through a custom Retrieval-Augmented Generation (RAG) engine. It compares the dialogue against the text-based Podcast Plan to keep key narrative arcs and strip out dead air and off-topic tangents."
+                       },
+                       {
+                           "index":  13,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "Algorithmic Camera Switching: The active speaker is determined via a local audio-amplitude and diarization script. By enforcing a 1.5-second minimum pacing hold time and a comparative loudness threshold, it mitigates microphone bleed and smoothly switches camera tracks."
+                       },
+                       {
+                           "index":  14,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "Native FCPXML Generation with 0.5s Handles: The script outputs a native Final Cut Pro XML (FCPXML v1.8) file. When opened in Adobe Premiere Pro (v24.0+), it maps the cuts natively to the raw files with 0.5-second safety handles pre-padded onto the clip boundaries for quick pacing adjustments."
+                       },
+                       {
+                           "index":  15,
+                           "style_id":  "Heading3",
+                           "style":  "heading 3",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "B. Phase 2: Micro-Moments Extraction (Expected Timeline: 2-3 Weeks)"
+                       },
+                       {
+                           "index":  16,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "2",
+                           "numbering_level":  "0",
+                           "text":  "Short-Form Highlight Identification: The AI infrastructure concurrently scans high-emotion text vectors and semantic peaks during the transcription phase to flag high-engagement, short-form highlights. These are programmatically compiled into a secondary sequence or dedicated project bin for rapid social media editing."
+                       },
+                       {
+                           "index":  17,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "3. Revised Project Timeline"
+                       },
+                       {
+                           "index":  18,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "As a preferred development partner, Unchain Labs has structured this project to align tightly with your target delivery windows and commercial frameworks."
+                       },
+                       {
+                           "index":  19,
+                           "style_id":  "Heading3",
+                           "style":  "heading 3",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Project Schedule"
+                       },
+                       {
+                           "index":  20,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Weeks 1-4: Phase 1 Core Build ─────────\u003e Transcription, Diarization, \u0026 XML Scripting"
+                       },
+                       {
+                           "index":  21,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Weeks 5-6: Calibration Window ─────────\u003e Human-Editor Feedback \u0026 Pacing Tuning"
+                       },
+                       {
+                           "index":  22,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Weeks 7-9: Phase 2 Short-Form ─────────\u003e Highlight Extraction Engine \u0026 Project Close"
+                       },
+                       {
+                           "index":  24,
+                           "style_id":  "Heading3",
+                           "style":  "heading 3",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Per-Episode Operational Costs"
+                       },
+                       {
+                           "index":  25,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "1",
+                           "numbering_level":  "0",
+                           "text":  "Metered API Fees: ~$3.50 to $5.00 USD per 2-hour episode."
+                       },
+                       {
+                           "index":  26,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "1",
+                           "numbering_level":  "0",
+                           "text":  "Because our architecture operates on lightweight audio and text arrays, your client avoids costly cloud video rendering fees, paying strictly for metered Whisper and LLM tokens."
+                       }
+                   ],
+    "tables":  [
+                   {
+                       "index":  1,
+                       "rows":  5,
+                       "data":  [
+                                    [
+                                        "Project Phase",
+                                        "Target Duration",
+                                        "Scope Focus",
+                                        ""
+                                    ],
+                                    [
+                                        "Phase 1: Core Pre-Editor",
+                                        "3-4 Weeks",
+                                        "Audio pipelines, RAG filtering, switching logic, and FCPXML output.",
+                                        ""
+                                    ],
+                                    [
+                                        "Calibration \u0026 Tuning",
+                                        "1-2 Weeks",
+                                        "Live alignment testing and editor optimization loops.",
+                                        ""
+                                    ],
+                                    [
+                                        "Phase 2: Micro-Moments",
+                                        "2-3 Weeks",
+                                        "Automated short-form highlight compiler.",
+                                        ""
+                                    ],
+                                    [
+                                        "Total Investment",
+                                        "~8-9 Weeks Total",
+                                        "Custom End-to-End Automation Delivery",
+                                        ""
+                                    ]
+                                ]
+                   }
+               ],
+    "comments":  [
+
+                 ]
+}

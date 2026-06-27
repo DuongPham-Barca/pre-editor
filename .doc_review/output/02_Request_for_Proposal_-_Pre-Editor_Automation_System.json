@@ -1,0 +1,378 @@
+﻿{
+    "source":  "D:\\Outsource\\Pre-edit\\Request for Proposal - “Pre-Editor” Automation System.docx",
+    "title":  "Request for Proposal - “Pre-Editor” Automation System",
+    "pages":  null,
+    "words":  null,
+    "characters":  null,
+    "paragraphs_count":  39,
+    "tables_count":  0,
+    "images_count":  1,
+    "comments_count":  0,
+    "tracked_insertions_count":  0,
+    "tracked_deletions_count":  0,
+    "hyperlinks_count":  0,
+    "footnotes_present":  false,
+    "endnotes_present":  false,
+    "headers_footers":  [
+
+                        ],
+    "paragraphs":  [
+                       {
+                           "index":  1,
+                           "style_id":  "Title",
+                           "style":  "Title",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Sunrise Technology Services"
+                       },
+                       {
+                           "index":  2,
+                           "style_id":  "Title",
+                           "style":  "Title",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "“Pre-Editor” Automation System"
+                       },
+                       {
+                           "index":  3,
+                           "style_id":  "Title",
+                           "style":  "Title",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Request for Proposal (RFP)"
+                       },
+                       {
+                           "index":  8,
+                           "style_id":  "Heading3",
+                           "style":  "heading 3",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "PREPARED BY"
+                       },
+                       {
+                           "index":  9,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Sunrise Technology Services"
+                       },
+                       {
+                           "index":  21,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "1. Introduction \u0026 Project Context"
+                       },
+                       {
+                           "index":  22,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Our Client is a podcast production company. They specialize in long-form, multi-camera video podcasts. As they scale to support 17+ concurrent clients, the post-production pipeline has encountered a significant manual bottleneck in the \"rough cut\" phase."
+                       },
+                       {
+                           "index":  23,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "The project goal is to build a custom automation solution that acts as an intelligent \"Pre-Editor,\" dramatically reducing the initial editing time required per episode."
+                       },
+                       {
+                           "index":  24,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "2. The Core Problem"
+                       },
+                       {
+                           "index":  25,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Currently, the multi-camera podcast recordings yield up to 2 hours of raw, unedited footage per episode."
+                       },
+                       {
+                           "index":  26,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "A human editor must manually watch the footage, align the multi-cam angles, refer to the client\u0027s creative brief (show notes), cut out off-topic tangents, select the most engaging narrative moments, and switch camera angles to the active speaker."
+                       },
+                       {
+                           "index":  27,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "This manual rough-cut process currently takes 2 full working days per episode. The primary business goal is to reduce this phase to under 4 hours."
+                       },
+                       {
+                           "index":  28,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "3. Functional Requirements"
+                       },
+                       {
+                           "index":  29,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "We are looking for a solution that successfully executes the following workflow:"
+                       },
+                       {
+                           "index":  30,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "A. Inputs:"
+                       },
+                       {
+                           "index":  31,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "The system must be able to ingest:"
+                       },
+                       {
+                           "index":  32,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "1",
+                           "numbering_level":  "0",
+                           "text":  "Media: Up to 2 hours of raw multi-camera video/audio (typically 2-3 isolated camera angles and separate audio tracks)."
+                       },
+                       {
+                           "index":  33,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "1",
+                           "numbering_level":  "0",
+                           "text":  "Context: A text-based \"Podcast Plan\" or creative brief that outlines the intended topics, narrative structure, and specific moments of interest for that episode."
+                       },
+                       {
+                           "index":  34,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "B. Processing:"
+                       },
+                       {
+                           "index":  35,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "The system must analyze the inputs and intelligently filter the content. It must:"
+                       },
+                       {
+                           "index":  36,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "2",
+                           "numbering_level":  "0",
+                           "text":  "Identify and retain the most relevant narrative arcs based on the provided text context."
+                       },
+                       {
+                           "index":  37,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "2",
+                           "numbering_level":  "0",
+                           "text":  "Remove dead air, cross-talk, and off-topic conversations."
+                       },
+                       {
+                           "index":  38,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "2",
+                           "numbering_level":  "0",
+                           "text":  "Condense the 2-hour raw recording into a cohesive, highly engaging target duration of ~40 to 60 minutes."
+                       },
+                       {
+                           "index":  39,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "2",
+                           "numbering_level":  "0",
+                           "text":  "Accurately identify the active speaker and switch the camera angle accordingly."
+                       },
+                       {
+                           "index":  40,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "C. Output:"
+                       },
+                       {
+                           "index":  41,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "The system must output a timeline/sequence that our human editors can immediately open and refine."
+                       },
+                       {
+                           "index":  42,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "It must automatically populate the selected cuts and correct multi-cam angles onto the timeline."
+                       },
+                       {
+                           "index":  43,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "It must apply a 0.5-second \"safety handle\" (buffer) to the start and end of every cut to allow the human editor room to adjust the pacing."
+                       },
+                       {
+                           "index":  44,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "3",
+                           "numbering_level":  "0",
+                           "text":  "It must compile the identified short-form \"micro-moments\" into a dedicated folder, bin, or secondary sequence for immediate access by the editor. (Phase 2)"
+                       },
+                       {
+                           "index":  45,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "4. Strict Technical Constraints"
+                       },
+                       {
+                           "index":  46,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "While your approach to the logic is open, the final solution must adhere to the following strict constraints:"
+                       },
+                       {
+                           "index":  47,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "4",
+                           "numbering_level":  "0",
+                           "text":  "Adobe Premiere Pro Compatibility: The final output must be editable within Adobe Premiere Pro (v24.0+). Your solution can achieve this via any reliable method (e.g., generating an FCPXML file, building a native UXP panel, executing an ExtendScript, etc.)."
+                       },
+                       {
+                           "index":  48,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "4",
+                           "numbering_level":  "0",
+                           "text":  "Zero Timecode Drift: This is our highest technical priority. The automated cuts must maintain perfect synchronization with the raw, high-resolution video files."
+                       },
+                       {
+                           "index":  49,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "4",
+                           "numbering_level":  "0",
+                           "text":  "Easy Handoff: The solution must not require the human editor to manually re-link hundreds of media clips or spend hours conforming the automation to their raw files."
+                       },
+                       {
+                           "index":  50,
+                           "style_id":  "Heading2",
+                           "style":  "heading 2",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "5. Proposal Requirements"
+                       },
+                       {
+                           "index":  51,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  false,
+                           "numbering_id":  "",
+                           "numbering_level":  "",
+                           "text":  "Please include the following information in the proposal (rough draft is fine):"
+                       },
+                       {
+                           "index":  52,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "5",
+                           "numbering_level":  "0",
+                           "text":  "Proposed Solution \u0026 Architecture: Explain how you will solve this problem. What is your underlying logic for condensing the narrative? How will the system ingest the media and output to Premiere Pro (Web portal, local script, native plugin)? Why is your approach the most reliable?"
+                       },
+                       {
+                           "index":  53,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "5",
+                           "numbering_level":  "0",
+                           "text":  "Estimated Timeline \u0026 Budget: Provide a high-level breakdown of the estimated hours, phases, and costs to deliver a functional MVP."
+                       },
+                       {
+                           "index":  54,
+                           "style_id":  "",
+                           "style":  "",
+                           "numbered":  true,
+                           "numbering_id":  "5",
+                           "numbering_level":  "0",
+                           "text":  "Operational Costs: Provide an estimate of any ongoing third-party API or cloud hosting costs your proposed solution would incur per episode."
+                       }
+                   ],
+    "tables":  [
+
+               ],
+    "comments":  [
+
+                 ]
+}
