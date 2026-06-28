@@ -9,3 +9,4 @@ class TimelineClip:
     timeline_end: float
     text: str
     score: float
+    camera: str | None = None

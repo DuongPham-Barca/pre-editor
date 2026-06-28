@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 from src.analysis.scoring.highlight import ScoredScene
-from src.analysis.schemas import KeepZone
+from src.analysis.schemas import CameraDecision, KeepZone
 from src.timeline.schemas import TimelineClip
 
 
@@ -82,6 +82,39 @@ def build_timeline_from_zones(
                 timeline_end=current_time + duration_s,
                 text=zone.topic,
                 score=100.0,
+            )
+        )
+        current_time += duration_s
+
+    return timeline
+
+
+def build_timeline_from_decisions(
+    decisions: list[CameraDecision],
+    topic_map: dict[tuple[int, int], str] | None = None,
+) -> list[TimelineClip]:
+    timeline: list[TimelineClip] = []
+    current_time = 0.0
+
+    for dec in decisions:
+        if dec.camera == "silent":
+            continue
+        duration_s = (dec.end_ms - dec.start_ms) / 1000.0
+        topic = ""
+        if topic_map:
+            for (zs, ze), t in topic_map.items():
+                if zs <= dec.start_ms < ze:
+                    topic = t
+                    break
+        timeline.append(
+            TimelineClip(
+                source_start=dec.start_ms / 1000.0,
+                source_end=dec.end_ms / 1000.0,
+                timeline_start=current_time,
+                timeline_end=current_time + duration_s,
+                text=topic,
+                score=100.0,
+                camera=dec.camera,
             )
         )
         current_time += duration_s

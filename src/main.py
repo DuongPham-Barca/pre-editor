@@ -16,7 +16,14 @@ from src.analysis.rag_filter import (
     save_keep_zones_json,
 )
 from src.ai.llm.huggingface import HuggingFaceGGUFJsonClient, download_gguf_model
-from src.timeline.builder import build_timeline, save_timeline_json, build_timeline_from_zones
+from src.media.switcher import compute_camera_decisions, save_camera_decisions
+from src.timeline.builder import (
+    build_timeline,
+    build_timeline_from_decisions,
+    build_timeline_from_zones,
+    save_timeline_json,
+)
+from src.exporter.fcpxml import export_fcpxml
 from src.exporter.preview import render_preview
 from src.analysis.schemas import KeepZone
 
@@ -112,7 +119,18 @@ def main():
         zones_path = save_keep_zones_json(keep_zones, "output/keep_zones.json")
         console.print(f"[green]Keep zones saved:[/green] {zones_path}")
 
-        timeline = build_timeline_from_zones(keep_zones)
+        # --- Module 4: Audio-Level Diarization & Switching ---
+        console.print("[yellow]Running Module 4: Audio diarization & silence removal...[/yellow]")
+        camera_decisions = compute_camera_decisions(
+            track_a_path=audio_path,
+            track_b_path=audio_path,
+            keep_zones=keep_zones,
+        )
+        decisions_path = save_camera_decisions(camera_decisions, "output/camera_decisions.json")
+        console.print(f"[green]Camera decisions: {len(camera_decisions)} segment(s)[/green]")
+
+        topic_map = {(z.start_ms, z.end_ms): z.topic for z in keep_zones}
+        timeline = build_timeline_from_decisions(camera_decisions, topic_map=topic_map)
 
     except Exception as exc:
         console.print(f"[yellow]RAG filter failed ({exc}). Falling back to keyword scoring...[/yellow]")
@@ -126,10 +144,11 @@ def main():
     console.print(f"[green]Timeline saved:[/green] {timeline_path}")
 
     for clip in timeline:
+        cam_tag = f" [{clip.camera}]" if clip.camera else ""
         console.print(
             f"  [cyan]{clip.timeline_start:.1f}->{clip.timeline_end:.1f}[/cyan] "
             f"from [blue]{clip.source_start:.1f}->{clip.source_end:.1f}[/blue] "
-            f"score={clip.score:.0f} text={clip.text[:60]}"
+            f"score={clip.score:.0f}{cam_tag} text={clip.text[:60]}"
         )
 
     if timeline:
@@ -140,6 +159,16 @@ def main():
             output_video="output/preview.mp4",
         )
         console.print(f"[green]Preview video saved:[/green] {preview_path}")
+
+        # --- Module 5: FCPXML Exporter ---
+        console.print("[yellow]Running Module 5: FCPXML export...[/yellow]")
+        fcpxml_path = export_fcpxml(
+            timeline=timeline,
+            video_path=video_path,
+            metadata=metadata,
+            output_path="output/timeline.fcpxml",
+        )
+        console.print(f"[green]FCPXML saved:[/green] {fcpxml_path}")
     else:
         console.print("[red]Timeline rỗng — không có gì để render.[/red]")
 

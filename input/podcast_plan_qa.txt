@@ -1,2 +1,3 @@
-Keep the introduction that explains how the English speaking practice video works.
-Exclude generic greetings, thanks, and unrelated closing remarks.
+Keep the introduction explaining how the English speaking practice video works.
+Keep the English dialogue and conversation practice segments where the speaker says their lines and prompts the viewer to practice.
+Exclude generic greetings at the start and final thank-yous or closing remarks.
