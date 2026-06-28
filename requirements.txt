@@ -16,6 +16,8 @@ httpcore==1.0.9
 httpx==0.28.1
 huggingface_hub==1.21.0
 idna==3.18
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python==0.3.30
 markdown-it-py==4.2.0
 mdurl==0.1.2
 numpy==2.5.0

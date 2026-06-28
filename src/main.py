@@ -1,25 +1,65 @@
+from pathlib import Path
+
 from rich.console import Console
 
 from src.media.audio import extract_audio
 from src.media.ffmpeg import check_ffmpeg
 from src.media.frame import extract_frame
 from src.media.metadata import get_video_metadata
-from src.ai.speech.transcribe import SpeechTranscriber, save_transcript_json
+from src.ai.speech.transcribe import SpeechTranscriber, save_word_transcript_json
 from src.ai.vision.scene_detect import detect_scenes, save_scenes_json
 from src.analysis.merge import merge_scenes_with_transcript
-from src.analysis.scoring.highlight import score_scenes
-from src.timeline.builder import build_timeline, save_timeline_json
+from src.analysis.scoring.highlight import score_scenes, ScoredScene
+from src.analysis.rag_filter import (
+    RagNarrativeFilter,
+    load_podcast_plan,
+    save_keep_zones_json,
+)
+from src.ai.llm.huggingface import HuggingFaceGGUFJsonClient, download_gguf_model
+from src.timeline.builder import build_timeline, save_timeline_json, build_timeline_from_zones
 from src.exporter.preview import render_preview
+from src.analysis.schemas import KeepZone
+
 console = Console()
+
+
+def _run_rag_filter(words, plan, model_path):
+    """RAG filter using local HuggingFace model (Module 3)."""
+    with HuggingFaceGGUFJsonClient(
+        model_path=model_path,
+        context_size=8_192,
+        max_output_tokens=2_048,
+    ) as llm_client:
+        narrative_filter = RagNarrativeFilter(
+            llm_client,
+            max_transcript_chars=12_000,
+        )
+        return narrative_filter.filter(plan, words)
+
+
+def _run_keyword_scoring(video_path, transcriber, audio_path):
+    """Fallback: segment-level scoring without LLM."""
+    from src.ai.speech.transcribe import save_transcript_json
+    segments = transcriber.transcribe(str(audio_path))
+    save_transcript_json(segments, "temp/transcript.json")
+
+    scenes = detect_scenes(video_path)
+    save_scenes_json(scenes, "temp/scenes.json")
+
+    analyzed = merge_scenes_with_transcript(scenes, segments)
+    scored = score_scenes(analyzed)
+    timeline = build_timeline(scored, min_score=60, max_clips=10)
+    return timeline, scored
 
 
 def main():
     video_path = "assets/podcast.mp4"
+    podcast_plan_path = "input/podcast_plan_qa.txt"
+    model_path = "models/qwen2.5-3b-instruct-gguf/qwen2.5-3b-instruct-q4_k_m.gguf"
 
     if not check_ffmpeg():
         console.print("[red]FFmpeg chưa cài đúng.[/red]")
         return
-
     console.print("[green]FFmpeg OK[/green]")
 
     metadata = get_video_metadata(video_path)
@@ -38,97 +78,73 @@ def main():
     )
     console.print(f"[green]Frame exported:[/green] {frame_path}")
 
-    console.print("[yellow]Transcribing audio...[/yellow]")
-
+    from ctranslate2 import get_cuda_device_count
+    device = "cuda" if get_cuda_device_count() > 0 else "cpu"
     transcriber = SpeechTranscriber(
         model_name="small",
-        device="cpu",
-        compute_type="int8",
+        device=device,
+        compute_type="float16" if device == "cuda" else "int8",
     )
 
-    segments = transcriber.transcribe(str(audio_path))
+    console.print("[yellow]Transcribing audio (word-level)...[/yellow]")
+    words = transcriber.transcribe_words(audio_path, speaker_id="Speaker")
+    console.print(f"[green]Transcribed {len(words)} words[/green]")
 
-    transcript_path = save_transcript_json(
-        segments=segments,
-        output_path="temp/transcript.json",
+    transcript_path = save_word_transcript_json(
+        words=words,
+        output_path="temp/transcript_words.json",
     )
+    console.print(f"[green]Word transcript saved:[/green] {transcript_path}")
 
-    console.print(f"[green]Transcript saved:[/green] {transcript_path}")
+    plan = load_podcast_plan(podcast_plan_path)
+    console.print(f"[green]Podcast Plan:[/green] {plan[:100]}...")
 
-    for segment in segments[:5]:
-        console.print(
-            f"[cyan]{segment.start:.2f} -> {segment.end:.2f}[/cyan] {segment.text}"
-        )
+    # --- Module 3: RAG Narrative Filter ---
+    console.print("[yellow]Running RAG Narrative Filter...[/yellow]")
 
-    console.print("[yellow]Detecting scenes...[/yellow]")
+    try:
+        keep_zones = _run_rag_filter(words, plan, model_path)
+        console.print(f"[green]RAG filter selected {len(keep_zones)} keep zone(s)[/green]")
+        for zone in keep_zones:
+            dur = (zone.end_ms - zone.start_ms) / 1000.0
+            console.print(f"  [cyan]{zone.start_ms}ms -> {zone.end_ms}ms[/cyan] ({dur:.1f}s) [yellow]{zone.topic}[/yellow]")
 
-    scenes = detect_scenes(video_path)
+        zones_path = save_keep_zones_json(keep_zones, "output/keep_zones.json")
+        console.print(f"[green]Keep zones saved:[/green] {zones_path}")
 
-    scenes_path = save_scenes_json(
-        scenes=scenes,
-        output_path="temp/scenes.json",
-    )
+        timeline = build_timeline_from_zones(keep_zones)
 
-    console.print(f"[green]Scenes saved:[/green] {scenes_path}")
+    except Exception as exc:
+        console.print(f"[yellow]RAG filter failed ({exc}). Falling back to keyword scoring...[/yellow]")
+        timeline, _ = _run_keyword_scoring(video_path, transcriber, audio_path)
 
-    for scene in scenes[:5]:
-        console.print(
-            f"[magenta]{scene.start:.2f} -> {scene.end:.2f}[/magenta]"
-        )
-    console.print("[yellow]Merging scenes with transcript...[/yellow]")
-
-    analyzed_scenes = merge_scenes_with_transcript(
-        scenes=scenes,
-        transcript=segments,
-    )
-
-    for item in analyzed_scenes[:5]:
-        console.print(
-            f"[blue]{item.start:.2f} -> {item.end:.2f}[/blue] {item.text}"
-        )
-
-    console.print("[yellow]Scoring scenes...[/yellow]")
-
-    scored_scenes = score_scenes(analyzed_scenes)
-
-    for item in scored_scenes[:5]:
-        console.print(
-            f"[green]score={item.score:.0f}[/green] "
-            f"[blue]{item.start:.2f}->{item.end:.2f}[/blue] "
-            f"{item.reason} | {item.text[:80]}"
-        )
-
-    console.print("[yellow]Building timeline...[/yellow]")
-
-    timeline = build_timeline(
-        scored_scenes=scored_scenes,
-        min_score=60,
-        max_clips=10,
-    )
-
+    # --- Build timeline & render ---
     timeline_path = save_timeline_json(
         timeline=timeline,
         output_path="output/timeline.json",
     )
-
     console.print(f"[green]Timeline saved:[/green] {timeline_path}")
 
     for clip in timeline:
         console.print(
-            f"[cyan]{clip.timeline_start:.2f}->{clip.timeline_end:.2f}[/cyan] "
-            f"from "
-            f"[blue]{clip.source_start:.2f}->{clip.source_end:.2f}[/blue] "
-            f"score={clip.score:.0f}"
+            f"  [cyan]{clip.timeline_start:.1f}->{clip.timeline_end:.1f}[/cyan] "
+            f"from [blue]{clip.source_start:.1f}->{clip.source_end:.1f}[/blue] "
+            f"score={clip.score:.0f} text={clip.text[:60]}"
         )
-    console.print("[yellow]Rendering preview video...[/yellow]")
 
-    preview_path = render_preview(
-        input_video=video_path,
-        timeline=timeline,
-        output_video="output/preview.mp4",
-    )
+    if timeline:
+        console.print("[yellow]Rendering preview video...[/yellow]")
+        preview_path = render_preview(
+            input_video=video_path,
+            timeline=timeline,
+            output_video="output/preview.mp4",
+        )
+        console.print(f"[green]Preview video saved:[/green] {preview_path}")
+    else:
+        console.print("[red]Timeline rỗng — không có gì để render.[/red]")
 
-    console.print(f"[green]Preview video saved:[/green] {preview_path}")
+    console.print("[bold green]Pipeline complete![/bold green]")
+
 
 if __name__ == "__main__":
     main()

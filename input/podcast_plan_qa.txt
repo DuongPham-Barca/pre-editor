@@ -1,0 +1,2 @@
+Keep the introduction that explains how the English speaking practice video works.
+Exclude generic greetings, thanks, and unrelated closing remarks.

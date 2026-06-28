@@ -2,15 +2,6 @@ from src.ai.speech.schemas import SpeechSegment
 from src.ai.vision.schemas import SceneSegment
 from src.analysis.schemas import AnalyzedScene
 
-from dataclasses import dataclass
-
-
-@dataclass
-class AnalyzedScene:
-    start: float
-    end: float
-    text: str
-
 
 def merge_scenes_with_transcript(
     scenes: list[SceneSegment],

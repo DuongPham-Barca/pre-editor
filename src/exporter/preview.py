@@ -14,6 +14,10 @@ def render_preview(
     output_path = Path(output_video)
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    if not timeline:
+        output_path.write_text("", encoding="utf-8")
+        return output_path
+
     temp_path = Path(temp_dir)
     temp_path.mkdir(parents=True, exist_ok=True)
 

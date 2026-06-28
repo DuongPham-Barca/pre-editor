@@ -209,6 +209,9 @@ tempCodeRunnerFile.py
 # PyPI configuration file
 .pypirc
 
+# Local Hugging Face / GGUF model files
+models/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

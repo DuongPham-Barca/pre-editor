@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 from src.analysis.scoring.highlight import ScoredScene
+from src.analysis.schemas import KeepZone
 from src.timeline.schemas import TimelineClip
 
 
@@ -63,3 +64,26 @@ def save_timeline_json(
     )
 
     return path
+
+
+def build_timeline_from_zones(
+    zones: list[KeepZone],
+) -> list[TimelineClip]:
+    timeline: list[TimelineClip] = []
+    current_time = 0.0
+
+    for zone in zones:
+        duration_s = (zone.end_ms - zone.start_ms) / 1000.0
+        timeline.append(
+            TimelineClip(
+                source_start=zone.start_ms / 1000.0,
+                source_end=zone.end_ms / 1000.0,
+                timeline_start=current_time,
+                timeline_end=current_time + duration_s,
+                text=zone.topic,
+                score=100.0,
+            )
+        )
+        current_time += duration_s
+
+    return timeline

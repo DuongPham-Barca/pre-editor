@@ -1,0 +1,3248 @@
+[
+  {
+    "word": "Welcome",
+    "start_ms": 140,
+    "end_ms": 820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 820,
+    "end_ms": 1180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "another",
+    "start_ms": 1180,
+    "end_ms": 1660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Speak",
+    "start_ms": 1660,
+    "end_ms": 2080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "English",
+    "start_ms": 2080,
+    "end_ms": 2500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 2500,
+    "end_ms": 2820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 2820,
+    "end_ms": 2980,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "video.",
+    "start_ms": 2980,
+    "end_ms": 3400,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Most",
+    "start_ms": 3740,
+    "end_ms": 4060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 4060,
+    "end_ms": 4200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 4200,
+    "end_ms": 4300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "guys",
+    "start_ms": 4300,
+    "end_ms": 4560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "already",
+    "start_ms": 4560,
+    "end_ms": 4840,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "know",
+    "start_ms": 4840,
+    "end_ms": 5060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "how",
+    "start_ms": 5060,
+    "end_ms": 5280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 5280,
+    "end_ms": 5480,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "works.",
+    "start_ms": 5480,
+    "end_ms": 5800,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "For",
+    "start_ms": 6000,
+    "end_ms": 6080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 6080,
+    "end_ms": 6220,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "new",
+    "start_ms": 6220,
+    "end_ms": 6380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "people",
+    "start_ms": 6380,
+    "end_ms": 6600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "here,",
+    "start_ms": 6600,
+    "end_ms": 6980,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'll",
+    "start_ms": 7180,
+    "end_ms": 7320,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "explain,",
+    "start_ms": 7320,
+    "end_ms": 7780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "but",
+    "start_ms": 8040,
+    "end_ms": 8200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "first",
+    "start_ms": 8200,
+    "end_ms": 8460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 8460,
+    "end_ms": 8660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all,",
+    "start_ms": 8660,
+    "end_ms": 8800,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "thank",
+    "start_ms": 8860,
+    "end_ms": 9060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 9060,
+    "end_ms": 9160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 9160,
+    "end_ms": 9300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "joining",
+    "start_ms": 9300,
+    "end_ms": 9600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "us.",
+    "start_ms": 9600,
+    "end_ms": 9920,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "So",
+    "start_ms": 10680,
+    "end_ms": 11000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 11000,
+    "end_ms": 11300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 11300,
+    "end_ms": 11520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "basically",
+    "start_ms": 11520,
+    "end_ms": 12120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "speak",
+    "start_ms": 12120,
+    "end_ms": 12660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "English",
+    "start_ms": 12660,
+    "end_ms": 13200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 13200,
+    "end_ms": 13620,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me.",
+    "start_ms": 13620,
+    "end_ms": 13880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "We",
+    "start_ms": 14360,
+    "end_ms": 14640,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 14640,
+    "end_ms": 14780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "have",
+    "start_ms": 14780,
+    "end_ms": 14940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 14940,
+    "end_ms": 15040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "dialogue",
+    "start_ms": 15040,
+    "end_ms": 15460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "where",
+    "start_ms": 15460,
+    "end_ms": 16060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "one",
+    "start_ms": 16060,
+    "end_ms": 16600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "line",
+    "start_ms": 16600,
+    "end_ms": 16820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 16820,
+    "end_ms": 17000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 17000,
+    "end_ms": 17160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "mine",
+    "start_ms": 17160,
+    "end_ms": 17460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 17460,
+    "end_ms": 17820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 17820,
+    "end_ms": 18000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "next",
+    "start_ms": 18000,
+    "end_ms": 18380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "one",
+    "start_ms": 18380,
+    "end_ms": 18660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 18660,
+    "end_ms": 18860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 18860,
+    "end_ms": 19080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "yours.",
+    "start_ms": 19080,
+    "end_ms": 19460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'm",
+    "start_ms": 20080,
+    "end_ms": 20340,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "going",
+    "start_ms": 20340,
+    "end_ms": 20440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 20440,
+    "end_ms": 20520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "say",
+    "start_ms": 20520,
+    "end_ms": 20680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "my",
+    "start_ms": 20680,
+    "end_ms": 20940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "line",
+    "start_ms": 20940,
+    "end_ms": 21280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 21280,
+    "end_ms": 21580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "then",
+    "start_ms": 21580,
+    "end_ms": 21720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 21720,
+    "end_ms": 21980,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 21980,
+    "end_ms": 22140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "read",
+    "start_ms": 22140,
+    "end_ms": 22560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "your",
+    "start_ms": 22560,
+    "end_ms": 23020,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "line",
+    "start_ms": 23020,
+    "end_ms": 23500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "from",
+    "start_ms": 23500,
+    "end_ms": 23760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 23760,
+    "end_ms": 23960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "screen",
+    "start_ms": 23960,
+    "end_ms": 24340,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "out",
+    "start_ms": 24340,
+    "end_ms": 25120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "loud",
+    "start_ms": 25120,
+    "end_ms": 25500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "as",
+    "start_ms": 25500,
+    "end_ms": 26020,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "if",
+    "start_ms": 26020,
+    "end_ms": 26200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 26200,
+    "end_ms": 26340,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "are",
+    "start_ms": 26340,
+    "end_ms": 26440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "answering",
+    "start_ms": 26440,
+    "end_ms": 26940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me.",
+    "start_ms": 26940,
+    "end_ms": 27240,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "And",
+    "start_ms": 27240,
+    "end_ms": 27560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "then",
+    "start_ms": 27560,
+    "end_ms": 27760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "vice",
+    "start_ms": 27760,
+    "end_ms": 27940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "versa.",
+    "start_ms": 27940,
+    "end_ms": 28380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Today's",
+    "start_ms": 28700,
+    "end_ms": 29180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "dialogue",
+    "start_ms": 29180,
+    "end_ms": 29640,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 29640,
+    "end_ms": 30000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "take",
+    "start_ms": 30000,
+    "end_ms": 30300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "place",
+    "start_ms": 30300,
+    "end_ms": 30740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "in",
+    "start_ms": 30740,
+    "end_ms": 31000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 31000,
+    "end_ms": 31120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "store.",
+    "start_ms": 31120,
+    "end_ms": 31500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It'll",
+    "start_ms": 31980,
+    "end_ms": 32140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 32140,
+    "end_ms": 32260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 32260,
+    "end_ms": 32360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "dialogue",
+    "start_ms": 32360,
+    "end_ms": 32760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "between",
+    "start_ms": 32760,
+    "end_ms": 33100,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 33100,
+    "end_ms": 33520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "customer",
+    "start_ms": 33520,
+    "end_ms": 33900,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 33900,
+    "end_ms": 34280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 34280,
+    "end_ms": 34460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "cashier",
+    "start_ms": 34460,
+    "end_ms": 35060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "at",
+    "start_ms": 35060,
+    "end_ms": 35300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 35300,
+    "end_ms": 35460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "checkout",
+    "start_ms": 35460,
+    "end_ms": 35720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "counter.",
+    "start_ms": 35720,
+    "end_ms": 36240,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "We",
+    "start_ms": 36520,
+    "end_ms": 36560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all",
+    "start_ms": 36560,
+    "end_ms": 36780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "shop",
+    "start_ms": 36780,
+    "end_ms": 37140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 37140,
+    "end_ms": 37620,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "here",
+    "start_ms": 37620,
+    "end_ms": 37900,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "in",
+    "start_ms": 37900,
+    "end_ms": 38000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 38000,
+    "end_ms": 38120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "US,",
+    "start_ms": 38120,
+    "end_ms": 38400,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "cashiers",
+    "start_ms": 38720,
+    "end_ms": 39300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "always",
+    "start_ms": 39300,
+    "end_ms": 39840,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "make",
+    "start_ms": 39840,
+    "end_ms": 40180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "small",
+    "start_ms": 40180,
+    "end_ms": 40440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "talk",
+    "start_ms": 40440,
+    "end_ms": 40720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 40720,
+    "end_ms": 40960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "customers.",
+    "start_ms": 40960,
+    "end_ms": 41460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "So",
+    "start_ms": 41780,
+    "end_ms": 41820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "if",
+    "start_ms": 41820,
+    "end_ms": 42040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you're",
+    "start_ms": 42040,
+    "end_ms": 42180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "planning",
+    "start_ms": 42180,
+    "end_ms": 42560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "on",
+    "start_ms": 42560,
+    "end_ms": 42760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "traveling",
+    "start_ms": 42760,
+    "end_ms": 43040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "here,",
+    "start_ms": 43040,
+    "end_ms": 43480,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it'll",
+    "start_ms": 43580,
+    "end_ms": 43760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 43760,
+    "end_ms": 43880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "useful",
+    "start_ms": 43880,
+    "end_ms": 44220,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 44220,
+    "end_ms": 44400,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "practice",
+    "start_ms": 44400,
+    "end_ms": 44720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it.",
+    "start_ms": 44720,
+    "end_ms": 45000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Hi,",
+    "start_ms": 45300,
+    "end_ms": 45780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "how",
+    "start_ms": 45960,
+    "end_ms": 46080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "are",
+    "start_ms": 46080,
+    "end_ms": 46180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 46180,
+    "end_ms": 46260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today?",
+    "start_ms": 46260,
+    "end_ms": 46480,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'm",
+    "start_ms": 46980,
+    "end_ms": 47140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "doing",
+    "start_ms": 47140,
+    "end_ms": 47320,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "well,",
+    "start_ms": 47320,
+    "end_ms": 47640,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "thank",
+    "start_ms": 47700,
+    "end_ms": 47940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you,",
+    "start_ms": 47940,
+    "end_ms": 48160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "how",
+    "start_ms": 48280,
+    "end_ms": 48400,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "about",
+    "start_ms": 48400,
+    "end_ms": 48540,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you?",
+    "start_ms": 48540,
+    "end_ms": 48820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'm",
+    "start_ms": 49380,
+    "end_ms": 49660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "good,",
+    "start_ms": 49660,
+    "end_ms": 49840,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "thanks.",
+    "start_ms": 50020,
+    "end_ms": 50160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Just",
+    "start_ms": 50360,
+    "end_ms": 50460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "grabbing",
+    "start_ms": 50460,
+    "end_ms": 50880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 50880,
+    "end_ms": 51100,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "few",
+    "start_ms": 51100,
+    "end_ms": 51180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "things",
+    "start_ms": 51180,
+    "end_ms": 51380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 51380,
+    "end_ms": 51600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 51600,
+    "end_ms": 51680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "weekend.",
+    "start_ms": 51680,
+    "end_ms": 51940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Sounds",
+    "start_ms": 52560,
+    "end_ms": 52960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "great.",
+    "start_ms": 52960,
+    "end_ms": 53360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Did",
+    "start_ms": 53540,
+    "end_ms": 53620,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 53620,
+    "end_ms": 53780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "find",
+    "start_ms": 53780,
+    "end_ms": 53960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "everything",
+    "start_ms": 53960,
+    "end_ms": 54340,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 54340,
+    "end_ms": 54540,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "were",
+    "start_ms": 54540,
+    "end_ms": 54660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "looking",
+    "start_ms": 54660,
+    "end_ms": 54820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for?",
+    "start_ms": 54820,
+    "end_ms": 55140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Yes,",
+    "start_ms": 55740,
+    "end_ms": 55940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 56180,
+    "end_ms": 56300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "did,",
+    "start_ms": 56300,
+    "end_ms": 56500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "but",
+    "start_ms": 56620,
+    "end_ms": 56720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 56720,
+    "end_ms": 56840,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "have",
+    "start_ms": 56840,
+    "end_ms": 56940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 56940,
+    "end_ms": 57020,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "question",
+    "start_ms": 57020,
+    "end_ms": 57260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "about",
+    "start_ms": 57260,
+    "end_ms": 57500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 57500,
+    "end_ms": 57660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 57660,
+    "end_ms": 57940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 57940,
+    "end_ms": 58080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 58080,
+    "end_ms": 58260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item.",
+    "start_ms": 58260,
+    "end_ms": 58660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It's",
+    "start_ms": 58840,
+    "end_ms": 59000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "showing",
+    "start_ms": 59000,
+    "end_ms": 59260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "up",
+    "start_ms": 59260,
+    "end_ms": 59500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "as",
+    "start_ms": 59500,
+    "end_ms": 59600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 59600,
+    "end_ms": 59740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "different",
+    "start_ms": 59740,
+    "end_ms": 60020,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 60020,
+    "end_ms": 60420,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "than",
+    "start_ms": 60420,
+    "end_ms": 60660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "what",
+    "start_ms": 60660,
+    "end_ms": 60820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 60820,
+    "end_ms": 60920,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "saw",
+    "start_ms": 60920,
+    "end_ms": 61120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "on",
+    "start_ms": 61120,
+    "end_ms": 61200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 61200,
+    "end_ms": 61300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "shelf.",
+    "start_ms": 61300,
+    "end_ms": 61580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Sure,",
+    "start_ms": 62460,
+    "end_ms": 62780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 62940,
+    "end_ms": 63040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "can",
+    "start_ms": 63040,
+    "end_ms": 63180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "help",
+    "start_ms": 63180,
+    "end_ms": 63400,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 63400,
+    "end_ms": 63520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 63520,
+    "end_ms": 63700,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that.",
+    "start_ms": 63700,
+    "end_ms": 63860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Which",
+    "start_ms": 64080,
+    "end_ms": 64280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item",
+    "start_ms": 64280,
+    "end_ms": 64520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "is",
+    "start_ms": 64520,
+    "end_ms": 64680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it?",
+    "start_ms": 64680,
+    "end_ms": 64900,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It's",
+    "start_ms": 65360,
+    "end_ms": 65500,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 65500,
+    "end_ms": 65680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pack",
+    "start_ms": 65680,
+    "end_ms": 65920,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 65920,
+    "end_ms": 66040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "gum.",
+    "start_ms": 66040,
+    "end_ms": 66200,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Let",
+    "start_ms": 67100,
+    "end_ms": 67440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 67440,
+    "end_ms": 67580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "take",
+    "start_ms": 67580,
+    "end_ms": 67780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 67780,
+    "end_ms": 67960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "look.",
+    "start_ms": 67960,
+    "end_ms": 68100,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Oh,",
+    "start_ms": 70530,
+    "end_ms": 70930,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you're",
+    "start_ms": 71050,
+    "end_ms": 71290,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right.",
+    "start_ms": 71290,
+    "end_ms": 71690,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It",
+    "start_ms": 72150,
+    "end_ms": 72310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "looks",
+    "start_ms": 72310,
+    "end_ms": 72590,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "like",
+    "start_ms": 72590,
+    "end_ms": 72850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 72850,
+    "end_ms": 72990,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "wrong",
+    "start_ms": 72990,
+    "end_ms": 73210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 73210,
+    "end_ms": 73590,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "tag",
+    "start_ms": 73590,
+    "end_ms": 73870,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "was",
+    "start_ms": 73870,
+    "end_ms": 74070,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "placed",
+    "start_ms": 74070,
+    "end_ms": 74310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "on",
+    "start_ms": 74310,
+    "end_ms": 74550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 74550,
+    "end_ms": 74710,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item.",
+    "start_ms": 74710,
+    "end_ms": 75090,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 75270,
+    "end_ms": 75410,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "apologize",
+    "start_ms": 75410,
+    "end_ms": 75870,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 75870,
+    "end_ms": 76190,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 76190,
+    "end_ms": 76310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "confusion.",
+    "start_ms": 76310,
+    "end_ms": 76790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'll",
+    "start_ms": 77030,
+    "end_ms": 77170,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "make",
+    "start_ms": 77170,
+    "end_ms": 77330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "sure",
+    "start_ms": 77330,
+    "end_ms": 77550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 77550,
+    "end_ms": 77670,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "fix",
+    "start_ms": 77670,
+    "end_ms": 77890,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it.",
+    "start_ms": 77890,
+    "end_ms": 78170,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "The",
+    "start_ms": 78550,
+    "end_ms": 78730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "correct",
+    "start_ms": 78730,
+    "end_ms": 79010,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 79010,
+    "end_ms": 79430,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 79430,
+    "end_ms": 79650,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 79650,
+    "end_ms": 79830,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "gum",
+    "start_ms": 79830,
+    "end_ms": 80110,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "is",
+    "start_ms": 80110,
+    "end_ms": 80450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "3",
+    "start_ms": 80450,
+    "end_ms": 80850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": ".99.",
+    "start_ms": 80850,
+    "end_ms": 81310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thank",
+    "start_ms": 82030,
+    "end_ms": 82430,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 82430,
+    "end_ms": 82510,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 82510,
+    "end_ms": 82630,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "letting",
+    "start_ms": 82630,
+    "end_ms": 82830,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 82830,
+    "end_ms": 82990,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "know.",
+    "start_ms": 82990,
+    "end_ms": 83150,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 83250,
+    "end_ms": 83330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "appreciate",
+    "start_ms": 83330,
+    "end_ms": 83610,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "your",
+    "start_ms": 83610,
+    "end_ms": 83910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "help.",
+    "start_ms": 83910,
+    "end_ms": 84190,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Of",
+    "start_ms": 84590,
+    "end_ms": 84790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "course,",
+    "start_ms": 84790,
+    "end_ms": 85070,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "no",
+    "start_ms": 85210,
+    "end_ms": 85350,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "problem.",
+    "start_ms": 85350,
+    "end_ms": 85750,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Well,",
+    "start_ms": 85750,
+    "end_ms": 86050,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that'd",
+    "start_ms": 86090,
+    "end_ms": 86290,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 86290,
+    "end_ms": 86350,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all",
+    "start_ms": 86350,
+    "end_ms": 86510,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 86510,
+    "end_ms": 86670,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 86670,
+    "end_ms": 86790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today.",
+    "start_ms": 86790,
+    "end_ms": 86990,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Yes,",
+    "start_ms": 87570,
+    "end_ms": 87910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that's",
+    "start_ms": 88010,
+    "end_ms": 88250,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "everything.",
+    "start_ms": 88250,
+    "end_ms": 88550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Great,",
+    "start_ms": 89230,
+    "end_ms": 89550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "your",
+    "start_ms": 89770,
+    "end_ms": 89850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "total",
+    "start_ms": 89850,
+    "end_ms": 90210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "comes",
+    "start_ms": 90210,
+    "end_ms": 90530,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 90530,
+    "end_ms": 90750,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "24",
+    "start_ms": 90750,
+    "end_ms": 91330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": ".73.",
+    "start_ms": 91330,
+    "end_ms": 92030,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "How",
+    "start_ms": 92350,
+    "end_ms": 92550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "would",
+    "start_ms": 92550,
+    "end_ms": 92650,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 92650,
+    "end_ms": 92730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "like",
+    "start_ms": 92730,
+    "end_ms": 92850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 92850,
+    "end_ms": 92990,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pay?",
+    "start_ms": 92990,
+    "end_ms": 93170,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'll",
+    "start_ms": 93870,
+    "end_ms": 94270,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pay",
+    "start_ms": 94270,
+    "end_ms": 94390,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 94390,
+    "end_ms": 94550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "my",
+    "start_ms": 94550,
+    "end_ms": 94710,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "credit",
+    "start_ms": 94710,
+    "end_ms": 94890,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "card.",
+    "start_ms": 94890,
+    "end_ms": 95210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "All",
+    "start_ms": 95850,
+    "end_ms": 96090,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right,",
+    "start_ms": 96090,
+    "end_ms": 96250,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you're",
+    "start_ms": 96410,
+    "end_ms": 96550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all",
+    "start_ms": 96550,
+    "end_ms": 96650,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "set.",
+    "start_ms": 96650,
+    "end_ms": 96910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thank",
+    "start_ms": 97210,
+    "end_ms": 97370,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 97370,
+    "end_ms": 97450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 97450,
+    "end_ms": 97570,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "shopping",
+    "start_ms": 97570,
+    "end_ms": 97850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 97850,
+    "end_ms": 98090,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "us",
+    "start_ms": 98090,
+    "end_ms": 98230,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today",
+    "start_ms": 98230,
+    "end_ms": 98470,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 98470,
+    "end_ms": 98630,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "have",
+    "start_ms": 98630,
+    "end_ms": 98790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 98790,
+    "end_ms": 98910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "great",
+    "start_ms": 98910,
+    "end_ms": 99150,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "weekend.",
+    "start_ms": 99150,
+    "end_ms": 99470,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thanks,",
+    "start_ms": 100050,
+    "end_ms": 100410,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 100570,
+    "end_ms": 100650,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "too.",
+    "start_ms": 100650,
+    "end_ms": 100810,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Okay,",
+    "start_ms": 101450,
+    "end_ms": 101850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "let's",
+    "start_ms": 101990,
+    "end_ms": 102350,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "get",
+    "start_ms": 102350,
+    "end_ms": 102450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "into",
+    "start_ms": 102450,
+    "end_ms": 102690,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it.",
+    "start_ms": 102690,
+    "end_ms": 102950,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 103210,
+    "end_ms": 103350,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "will",
+    "start_ms": 103350,
+    "end_ms": 103490,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "start.",
+    "start_ms": 103490,
+    "end_ms": 103730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Hi,",
+    "start_ms": 104410,
+    "end_ms": 104650,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "how",
+    "start_ms": 104790,
+    "end_ms": 104930,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "are",
+    "start_ms": 104930,
+    "end_ms": 105030,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 105030,
+    "end_ms": 105130,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today?",
+    "start_ms": 105130,
+    "end_ms": 105330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'm",
+    "start_ms": 112060,
+    "end_ms": 112360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "good,",
+    "start_ms": 112360,
+    "end_ms": 112520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "thanks.",
+    "start_ms": 112620,
+    "end_ms": 112860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Just",
+    "start_ms": 113040,
+    "end_ms": 113140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "grabbing",
+    "start_ms": 113140,
+    "end_ms": 113560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 113560,
+    "end_ms": 113800,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "few",
+    "start_ms": 113800,
+    "end_ms": 113880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "things",
+    "start_ms": 113880,
+    "end_ms": 114080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 114080,
+    "end_ms": 114280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 114280,
+    "end_ms": 114380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "weekend.",
+    "start_ms": 114380,
+    "end_ms": 114620,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Yes,",
+    "start_ms": 121460,
+    "end_ms": 121860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 122040,
+    "end_ms": 122160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "did,",
+    "start_ms": 122160,
+    "end_ms": 122360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "but",
+    "start_ms": 122500,
+    "end_ms": 122560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 122560,
+    "end_ms": 122700,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "have",
+    "start_ms": 122700,
+    "end_ms": 122800,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 122800,
+    "end_ms": 122880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "question",
+    "start_ms": 122880,
+    "end_ms": 123140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "about",
+    "start_ms": 123140,
+    "end_ms": 123360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 123360,
+    "end_ms": 123520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 123520,
+    "end_ms": 123780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 123780,
+    "end_ms": 123940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 123940,
+    "end_ms": 124120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item.",
+    "start_ms": 124120,
+    "end_ms": 124520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It's",
+    "start_ms": 124700,
+    "end_ms": 124860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "showing",
+    "start_ms": 124860,
+    "end_ms": 125120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "up",
+    "start_ms": 125120,
+    "end_ms": 125360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "as",
+    "start_ms": 125360,
+    "end_ms": 125460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 125460,
+    "end_ms": 125600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "different",
+    "start_ms": 125600,
+    "end_ms": 125880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 125880,
+    "end_ms": 126280,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "than",
+    "start_ms": 126280,
+    "end_ms": 126520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "what",
+    "start_ms": 126520,
+    "end_ms": 126680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 126680,
+    "end_ms": 126780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "saw",
+    "start_ms": 126780,
+    "end_ms": 127000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "on",
+    "start_ms": 127000,
+    "end_ms": 127080,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 127080,
+    "end_ms": 127160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "shelf.",
+    "start_ms": 127160,
+    "end_ms": 127460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It's",
+    "start_ms": 133950,
+    "end_ms": 134130,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 134130,
+    "end_ms": 134290,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pack",
+    "start_ms": 134290,
+    "end_ms": 134530,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "of",
+    "start_ms": 134530,
+    "end_ms": 134670,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "gum.",
+    "start_ms": 134670,
+    "end_ms": 134870,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thank",
+    "start_ms": 159010,
+    "end_ms": 159270,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 159270,
+    "end_ms": 159390,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 159390,
+    "end_ms": 159510,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "letting",
+    "start_ms": 159510,
+    "end_ms": 159690,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 159690,
+    "end_ms": 159850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "know.",
+    "start_ms": 159850,
+    "end_ms": 160010,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 160110,
+    "end_ms": 160190,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "appreciate",
+    "start_ms": 160190,
+    "end_ms": 160470,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "your",
+    "start_ms": 160470,
+    "end_ms": 160790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "help.",
+    "start_ms": 160790,
+    "end_ms": 161050,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Yes,",
+    "start_ms": 169170,
+    "end_ms": 169550,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that's",
+    "start_ms": 169710,
+    "end_ms": 169910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "everything.",
+    "start_ms": 169910,
+    "end_ms": 170210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'll",
+    "start_ms": 179860,
+    "end_ms": 180020,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pay",
+    "start_ms": 180020,
+    "end_ms": 180160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 180160,
+    "end_ms": 180320,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "my",
+    "start_ms": 180320,
+    "end_ms": 180460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "credit",
+    "start_ms": 180460,
+    "end_ms": 180660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "card.",
+    "start_ms": 180660,
+    "end_ms": 180960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thanks,",
+    "start_ms": 190920,
+    "end_ms": 191320,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 191500,
+    "end_ms": 191580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "too.",
+    "start_ms": 191580,
+    "end_ms": 191740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "All",
+    "start_ms": 192720,
+    "end_ms": 192820,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right,",
+    "start_ms": 192820,
+    "end_ms": 193180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "great",
+    "start_ms": 193480,
+    "end_ms": 193780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "job.",
+    "start_ms": 193780,
+    "end_ms": 194180,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "And",
+    "start_ms": 194500,
+    "end_ms": 194660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "now",
+    "start_ms": 194660,
+    "end_ms": 194940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "we",
+    "start_ms": 194940,
+    "end_ms": 195140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "switch.",
+    "start_ms": 195140,
+    "end_ms": 195460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "You",
+    "start_ms": 195880,
+    "end_ms": 195960,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "go",
+    "start_ms": 195960,
+    "end_ms": 196120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "first.",
+    "start_ms": 196120,
+    "end_ms": 196420,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'm",
+    "start_ms": 202050,
+    "end_ms": 202210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "doing",
+    "start_ms": 202210,
+    "end_ms": 202390,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "well,",
+    "start_ms": 202390,
+    "end_ms": 202710,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "thank",
+    "start_ms": 202850,
+    "end_ms": 203010,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you.",
+    "start_ms": 203010,
+    "end_ms": 203250,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "How",
+    "start_ms": 203390,
+    "end_ms": 203450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "about",
+    "start_ms": 203450,
+    "end_ms": 203610,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you?",
+    "start_ms": 203610,
+    "end_ms": 203870,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Sounds",
+    "start_ms": 212600,
+    "end_ms": 212860,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "great.",
+    "start_ms": 212860,
+    "end_ms": 213260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Did",
+    "start_ms": 213460,
+    "end_ms": 213540,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 213540,
+    "end_ms": 213700,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "find",
+    "start_ms": 213700,
+    "end_ms": 213880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "everything",
+    "start_ms": 213880,
+    "end_ms": 214260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 214260,
+    "end_ms": 214460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "were",
+    "start_ms": 214460,
+    "end_ms": 214560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "looking",
+    "start_ms": 214560,
+    "end_ms": 214740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for?",
+    "start_ms": 214740,
+    "end_ms": 215040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Sure,",
+    "start_ms": 232120,
+    "end_ms": 232520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 232680,
+    "end_ms": 232760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "can",
+    "start_ms": 232760,
+    "end_ms": 232900,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "help",
+    "start_ms": 232900,
+    "end_ms": 233120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 233120,
+    "end_ms": 233240,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 233240,
+    "end_ms": 233420,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that.",
+    "start_ms": 233420,
+    "end_ms": 233580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Which",
+    "start_ms": 233840,
+    "end_ms": 234000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item",
+    "start_ms": 234000,
+    "end_ms": 234260,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "is",
+    "start_ms": 234260,
+    "end_ms": 234380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it?",
+    "start_ms": 234380,
+    "end_ms": 234600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Let",
+    "start_ms": 240230,
+    "end_ms": 240570,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 240570,
+    "end_ms": 240730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "take",
+    "start_ms": 240730,
+    "end_ms": 240910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 240910,
+    "end_ms": 241090,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "look.",
+    "start_ms": 241090,
+    "end_ms": 241250,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Oh,",
+    "start_ms": 243650,
+    "end_ms": 244050,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you're",
+    "start_ms": 244150,
+    "end_ms": 244470,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right.",
+    "start_ms": 244470,
+    "end_ms": 244850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "It",
+    "start_ms": 244850,
+    "end_ms": 245410,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "looks",
+    "start_ms": 245410,
+    "end_ms": 245730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "like",
+    "start_ms": 245730,
+    "end_ms": 245970,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 245970,
+    "end_ms": 246130,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "wrong",
+    "start_ms": 246130,
+    "end_ms": 246330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 246330,
+    "end_ms": 246730,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "tag",
+    "start_ms": 246730,
+    "end_ms": 246990,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "was",
+    "start_ms": 246990,
+    "end_ms": 247210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "placed",
+    "start_ms": 247210,
+    "end_ms": 247450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "on",
+    "start_ms": 247450,
+    "end_ms": 247670,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 247670,
+    "end_ms": 247850,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "item.",
+    "start_ms": 247850,
+    "end_ms": 248230,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 248370,
+    "end_ms": 248530,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "apologize",
+    "start_ms": 248530,
+    "end_ms": 249010,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 249010,
+    "end_ms": 249330,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 249330,
+    "end_ms": 249430,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "confusion.",
+    "start_ms": 249430,
+    "end_ms": 249930,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I'll",
+    "start_ms": 250150,
+    "end_ms": 250290,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "make",
+    "start_ms": 250290,
+    "end_ms": 250470,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "sure",
+    "start_ms": 250470,
+    "end_ms": 250670,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 250670,
+    "end_ms": 250790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "fix",
+    "start_ms": 250790,
+    "end_ms": 251030,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "it.",
+    "start_ms": 251030,
+    "end_ms": 251310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "The",
+    "start_ms": 251730,
+    "end_ms": 251830,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "correct",
+    "start_ms": 251830,
+    "end_ms": 252110,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "price",
+    "start_ms": 252110,
+    "end_ms": 252570,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 252570,
+    "end_ms": 252790,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "this",
+    "start_ms": 252790,
+    "end_ms": 252950,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "gum",
+    "start_ms": 252950,
+    "end_ms": 253190,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "is",
+    "start_ms": 253190,
+    "end_ms": 253590,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "$3",
+    "start_ms": 253590,
+    "end_ms": 253970,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": ".99.",
+    "start_ms": 253970,
+    "end_ms": 254450,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Of",
+    "start_ms": 262980,
+    "end_ms": 263160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "course,",
+    "start_ms": 263160,
+    "end_ms": 263460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "no",
+    "start_ms": 263580,
+    "end_ms": 263740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "problem.",
+    "start_ms": 263740,
+    "end_ms": 264140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Will",
+    "start_ms": 264320,
+    "end_ms": 264440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "that",
+    "start_ms": 264440,
+    "end_ms": 264600,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "be",
+    "start_ms": 264600,
+    "end_ms": 264740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all",
+    "start_ms": 264740,
+    "end_ms": 264880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 264880,
+    "end_ms": 265040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 265040,
+    "end_ms": 265160,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today?",
+    "start_ms": 265160,
+    "end_ms": 265380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Great,",
+    "start_ms": 270170,
+    "end_ms": 270590,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "your",
+    "start_ms": 270830,
+    "end_ms": 270910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "total",
+    "start_ms": 270910,
+    "end_ms": 271250,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "comes",
+    "start_ms": 271250,
+    "end_ms": 271570,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 271570,
+    "end_ms": 271810,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "$24",
+    "start_ms": 271810,
+    "end_ms": 272310,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": ".73.",
+    "start_ms": 272310,
+    "end_ms": 273010,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "How",
+    "start_ms": 273430,
+    "end_ms": 273610,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "would",
+    "start_ms": 273610,
+    "end_ms": 273710,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 273710,
+    "end_ms": 273810,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "like",
+    "start_ms": 273810,
+    "end_ms": 273910,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 273910,
+    "end_ms": 274030,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "pay?",
+    "start_ms": 274030,
+    "end_ms": 274210,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "All",
+    "start_ms": 279020,
+    "end_ms": 279300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right,",
+    "start_ms": 279300,
+    "end_ms": 279460,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you're",
+    "start_ms": 279600,
+    "end_ms": 279780,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "all",
+    "start_ms": 279780,
+    "end_ms": 279880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "set.",
+    "start_ms": 279880,
+    "end_ms": 280100,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Thank",
+    "start_ms": 280400,
+    "end_ms": 280580,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 280580,
+    "end_ms": 280660,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "for",
+    "start_ms": 280660,
+    "end_ms": 280800,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "shopping",
+    "start_ms": 280800,
+    "end_ms": 281060,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 281060,
+    "end_ms": 281320,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "us",
+    "start_ms": 281320,
+    "end_ms": 281440,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "today",
+    "start_ms": 281440,
+    "end_ms": 281680,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 281680,
+    "end_ms": 281840,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "have",
+    "start_ms": 281840,
+    "end_ms": 282000,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "a",
+    "start_ms": 282000,
+    "end_ms": 282120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "great",
+    "start_ms": 282120,
+    "end_ms": 282360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "weekend.",
+    "start_ms": 282360,
+    "end_ms": 282740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "All",
+    "start_ms": 287420,
+    "end_ms": 287760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "right,",
+    "start_ms": 287760,
+    "end_ms": 288120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 288260,
+    "end_ms": 288420,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "hope",
+    "start_ms": 288420,
+    "end_ms": 288620,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 288620,
+    "end_ms": 288760,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "guys",
+    "start_ms": 288760,
+    "end_ms": 288940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "enjoyed",
+    "start_ms": 288940,
+    "end_ms": 289360,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "practicing.",
+    "start_ms": 289360,
+    "end_ms": 289880,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "You're",
+    "start_ms": 289880,
+    "end_ms": 290120,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "speaking",
+    "start_ms": 290120,
+    "end_ms": 290380,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "with",
+    "start_ms": 290380,
+    "end_ms": 290720,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "me",
+    "start_ms": 290720,
+    "end_ms": 290940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "and",
+    "start_ms": 290940,
+    "end_ms": 291300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "I",
+    "start_ms": 291300,
+    "end_ms": 291520,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "hope",
+    "start_ms": 291520,
+    "end_ms": 291740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "to",
+    "start_ms": 291740,
+    "end_ms": 291940,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "see",
+    "start_ms": 291940,
+    "end_ms": 292140,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "you",
+    "start_ms": 292140,
+    "end_ms": 292300,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "in",
+    "start_ms": 292300,
+    "end_ms": 292480,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "the",
+    "start_ms": 292480,
+    "end_ms": 292560,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "next",
+    "start_ms": 292560,
+    "end_ms": 292740,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "video.",
+    "start_ms": 292740,
+    "end_ms": 293040,
+    "speaker_id": "Speaker"
+  },
+  {
+    "word": "Bye.",
+    "start_ms": 293040,
+    "end_ms": 293700,
+    "speaker_id": "Speaker"
+  }
+]
